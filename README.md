@@ -1,6 +1,6 @@
 # odin_on_rails
 
-Rails application guided by Odin Project, followting git-flow and deployed to heroku.
+Rails application guided by Odin Project, following git-flow and deployed to heroku.
 
 
 ## Built With
@@ -19,13 +19,13 @@ The project was designed to create an scaffolded application with rails, followi
 After `heroku create` you may need to add heroku as a remote source, use the following command:
 
     git remote add local-branch-name https://git.heroku.com/remote-app-123.git
-o
+or
 
     heroku git:remote -a remote-app-123
 
 Visit [Deploying with Git](https://devcenter.heroku.com/articles/git) for more information.
 
-Heroku is by default running only code commited to master but there is a way to [force it to take your current branch](https://stackoverflow.com/questions/14593538/make-heroku-run-non-master-git-branch). You can type:
+Heroku is by default working only with code commited to master, but there is a way to [force it to take your non master branch](https://stackoverflow.com/questions/14593538/make-heroku-run-non-master-git-branch). You can type:
 
     git push link-heroku-app local-branch:master
 
@@ -35,7 +35,7 @@ As an example, where *https://git.heroku.com/afternoon-caverns-32087.git* is the
 
     git push https://git.heroku.com/afternoon-caverns-32087.git rails-app:master
 
-Remember to [remove *.bundle*](https://forum.theodinproject.com/t/having-an-issue-with-git-push-heroku-master/30575) folder so Heroku will create his own bundle when you push your code there, for more information go [here](https://stackoverflow.com/questions/12333224/hartls-chapter-7-when-pushing-to-heroku-pg-is-not-part-of-the-bundle-but-it).
+Finally, before pushing to heroku remember to [remove *.bundle*](https://forum.theodinproject.com/t/having-an-issue-with-git-push-heroku-master/30575) folder so Heroku will create his own bundle when you push your code there, for more information go [here](https://stackoverflow.com/questions/12333224/hartls-chapter-7-when-pushing-to-heroku-pg-is-not-part-of-the-bundle-but-it).
 
 
 **Running the program on local machine**
