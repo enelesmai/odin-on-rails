@@ -4,6 +4,8 @@ AllCops:
     - "Guardfile"
     - "Rakefile"
     - 'bin/*'
+  
+  EnabledByDefault: true
 
   DisplayCopNames: true
 
@@ -32,6 +34,20 @@ Style/DefWithParentheses:
   Enabled: false
 Style/FrozenStringLiteralComment:
   EnforcedStyle: never
+Style/HashEachMethods:
+  Enabled: false
+Style/HashTransformKeys:
+  Enabled: false
+Style/HashTransformValues:
+  Enabled: false
+Style/MissingElse:
+  Enabled: false
+Style/Copyright:
+  Enabled: false
+Style/DocumentationMethod:
+  Enabled: false
+Style/InlineComment:
+  Enabled: false
 
 Layout/HashAlignment:
   EnforcedColonStyle: key
@@ -40,3 +56,6 @@ Layout/ExtraSpacing:
 Layout/MultilineMethodCallIndentation:
   Enabled: true
   EnforcedStyle: indented
+
+Bundler/GemComment:
+  Enabled: false
