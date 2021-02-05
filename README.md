@@ -1,6 +1,6 @@
 # odin_on_rails
 
-Rails application guided by Odin Project, following git-flow and deployed to heroku.
+How to start a rails application guided by Odin Project, following git-flow and deployed to heroku.
 
 
 ## Built With
